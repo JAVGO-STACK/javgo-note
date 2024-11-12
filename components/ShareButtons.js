@@ -375,7 +375,7 @@ const ShareButtons = ({ post }) => {
             <button
               aria-label={singleService}
               key={singleService}
-              className='cursor-pointer bg-yellow-500 text-white rounded-full mx-1'>
+              className='cursor-pointer bg-blue-500 text-white rounded-full mx-1'>
               <div alt={locale.COMMON.URL_COPIED} onClick={copyUrl}>
                 <i className='fas fa-link w-8' />
               </div>

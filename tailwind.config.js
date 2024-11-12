@@ -27,6 +27,9 @@ module.exports = {
       padding: '16px'
     },
     extend: {
+      maxWidth: {
+        'screen-4xl': '95%',
+      },
       colors: {
         day: {
           DEFAULT: BLOG.BACKGROUND_LIGHT || '#ffffff'
