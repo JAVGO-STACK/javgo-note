@@ -26,7 +26,7 @@ export default function ArchiveDateList(props) {
           <div key={index}>
             <Link
               href={`/archive#${date}`}
-              className="hover:underline dark:text-green-500"
+              className="hover:underline dark:text-blue-500"
             >
               {date}
             </Link>

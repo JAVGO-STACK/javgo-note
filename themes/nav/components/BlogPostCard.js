@@ -27,7 +27,7 @@ const BlogPostCard = ({ post, className }) => {
       passHref>
       <div
         key={post.id}
-        className={`${className} h-full rounded-2xl p-4 dark:bg-neutral-800 cursor-pointer bg-white hover:bg-white dark:hover:bg-gray-800 ${currentSelected ? 'bg-green-50 text-green-500' : ''}`}>
+        className={`${className} h-full rounded-2xl p-4 dark:bg-neutral-800 cursor-pointer bg-white hover:bg-white dark:hover:bg-gray-800 ${currentSelected ? 'bg-blue-50 text-blue-500' : ''}`}>
         <div className='stack-entry w-full flex space-x-3 select-none dark:text-neutral-200'>
           {siteConfig('POST_TITLE_ICON') && (
             <NotionIcon

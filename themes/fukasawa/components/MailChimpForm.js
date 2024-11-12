@@ -52,7 +52,7 @@ export default function MailChimpForm() {
                             </button>
                         </div>
                         {/* Success message */}
-                        {success && <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p>}
+                        {success && <p className="mt-2 text-blue-600 text-sm">Thanks for subscribing!</p>}
                     </div>
                 </div>
             </form>

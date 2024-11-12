@@ -348,7 +348,7 @@ const ShareButtons = ({ post }) => {
               onMouseLeave={closePopover}
               aria-label={singleService}
               key={singleService}
-              className='cursor-pointer bg-green-600 text-white rounded-full mx-1'>
+              className='cursor-pointer bg-blue-600 text-white rounded-full mx-1'>
               <div id='wechat-button'>
                 <i className='fab fa-weixin w-8' />
               </div>

@@ -73,7 +73,7 @@ const ThemeSwitch = () => {
         {/* 开关 */}
         <div className='flex items-center justify-between font-bold'>
           {/* 深色模式切换 */}
-          <div className='border dark:border-gray-60 text-sm flex items-center w-32 duration-200 hover:bg-green-500 p-2'>
+          <div className='border dark:border-gray-60 text-sm flex items-center w-32 duration-200 hover:bg-blue-500 p-2'>
             <DarkModeButton />
             <div
               onClick={toggleDarkMode}
@@ -84,7 +84,7 @@ const ThemeSwitch = () => {
 
           {/* 关闭 */}
           <div
-            className='hover:bg-green-500 px-2 py-1 duration-200 cursor-pointer'
+            className='hover:bg-blue-500 px-2 py-1 duration-200 cursor-pointer'
             onClick={() => {
               setSideBarVisible(false)
             }}>

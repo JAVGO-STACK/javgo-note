@@ -21,7 +21,7 @@ export default function ArticleFooter(props) {
             <Link
               href={`/category/${post?.category}`}
               passHref
-              className='cursor-pointer text-md mr-2 text-green-500'>
+              className='cursor-pointer text-md mr-2 text-blue-500'>
               {post?.category}
             </Link>
           </>

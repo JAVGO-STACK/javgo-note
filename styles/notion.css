@@ -37,7 +37,7 @@
   --notion-orange_background: rgb(250, 235, 221);
   --notion-brown_background: rgb(233, 229, 227);
   --notion-gray_background: rgb(241 241 239);
-  --notion-green_background: rgb(219, 237, 219);
+  --notion-blue_background: rgb(219, 237, 219);
   --notion-default_background: rgba(227, 226, 224);
 
   --notion-red_background_co: rgba(251, 228, 228, 0.3);
@@ -49,12 +49,12 @@
   --notion-orange_background_co: rgba(250, 235, 221, 0.3);
   --notion-brown_background_co: rgba(233, 229, 227, 0.3);
   --notion-gray_background_co: rgba(241, 241, 239, 0.3);
-  --notion-green_background_co: rgba(219, 237, 219, 0.3);
+  --notion-blue_background_co: rgba(219, 237, 219, 0.3);
   --notion-default_background_co: rgba(227, 226, 224, 0.3);
 
   --notion-item-blue: rgba(0, 120, 223, 0.2);
   --notion-item-orange: rgba(245, 93, 0, 0.2);
-  --notion-item-green: rgba(0, 135, 107, 0.2);
+  --notion-item-blue: rgba(0, 135, 107, 0.2);
   --notion-item-pink: rgba(221, 0, 129, 0.2);
   --notion-item-brown: rgba(140, 46, 0, 0.2);
   --notion-item-red: rgba(255, 0, 26, 0.2);
@@ -301,8 +301,8 @@
 .notion-gray_background {
   background-color: var(--notion-gray_background);
 }
-.notion-green_background {
-  background-color: var(--notion-green_background);
+.notion-blue_background {
+  background-color: var(--notion-blue_background);
 }
 .notion-default_background {
   background-color: var(--notion-default_background);
@@ -335,8 +335,8 @@
 .notion-gray_background_co {
   background-color: var(--notion-gray_background_co);
 }
-.notion-green_background_co {
-  background-color: var(--notion-green_background_co);
+.notion-blue_background_co {
+  background-color: var(--notion-blue_background_co);
 }
 .notion-default_background_co {
   background-color: var(--notion-default_background_co);
@@ -348,8 +348,8 @@
 .notion-item-orange {
   background-color: var(--notion-item-orange);
 }
-.notion-item-green {
-  background-color: var(--notion-item-green);
+.notion-item-blue {
+  background-color: var(--notion-item-blue);
 }
 .notion-item-pink {
   background-color: var(--notion-item-pink);

@@ -22,8 +22,8 @@ function GroupCategory({ currentCategory, categoryOptions }) {
               passHref
               className={` ${
                 selected
-                  ? 'bg-green-500 text-white '
-                  : 'dark:text-gray-300 hover:bg-green-500 rounded-lg hover:text-white'
+                  ? 'bg-blue-500 text-white '
+                  : 'dark:text-gray-300 hover:bg-blue-500 rounded-lg hover:text-white'
               }  whitespace-nowrap overflow-ellipsis items-center px-2 cursor-pointer py-1 font-bold`}>
               {/* <i
                 className={`${selected ? 'text-white fa-folder-open' : 'fa-folder text-gray-400'} fas mr-2`}

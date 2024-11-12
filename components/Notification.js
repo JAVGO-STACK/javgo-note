@@ -41,7 +41,7 @@ const useNotification = () => {
       <div className={`notification fixed left-0 w-full px-2 z-20 bottom-14`}>
         <div
           className={` ${isVisible && message ? 'opacity-100 ' : 'invisible opacity-0 bottom-0'} transition-opacity duration-200 
-           max-w-3xl mx-auto bg-green-500 flex items-center justify-between px-4 py-2 text-white rounded-lg shadow-lg`}>
+           max-w-3xl mx-auto bg-blue-500 flex items-center justify-between px-4 py-2 text-white rounded-lg shadow-lg`}>
           {message}
           <button
             onClick={closeNotification}

@@ -26,7 +26,7 @@ const BlogPostCard = ({ post, showSummary }) => {
           href={post?.href}
           passHref
           className={
-            'cursor-pointer font-bold  hover:underline text-3xl leading-tight text-gray-700 dark:text-gray-300 hover:text-green-500 dark:hover:text-green-400'
+            'cursor-pointer font-bold  hover:underline text-3xl leading-tight text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400'
           }>
           <h2>
             {siteConfig('MEDIUM_POST_LIST_COVER', null, CONFIG) && (
@@ -76,7 +76,7 @@ const BlogPostCard = ({ post, showSummary }) => {
                 <Link
                   href={post?.href}
                   passHref
-                  className='hover:bg-opacity-100 hover:scale-105 duration-200 pointer-events-auto transform font-bold text-green-500 cursor-pointer'>
+                  className='hover:bg-opacity-100 hover:scale-105 duration-200 pointer-events-auto transform font-bold text-blue-500 cursor-pointer'>
                   {locale.COMMON.ARTICLE_DETAIL}
                   <i className='ml-1 fas fa-angle-right' />
                 </Link>

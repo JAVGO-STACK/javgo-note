@@ -14,7 +14,7 @@ export default function TagItem({ tag }) {
         passHref
         className={`cursor-pointer inline-block rounded duration-200 mr-2 py-1 px-2 text-xs whitespace-nowrap`}
       >
-        <div className="font-light hover:scale-105 transition-all duration-200 text-xl dark:text-green-500 hover:bg-gray-100 dark:hover:bg-hexo-black-gray p-2">
+        <div className="font-light hover:scale-105 transition-all duration-200 text-xl dark:text-blue-500 hover:bg-gray-100 dark:hover:bg-hexo-black-gray p-2">
           {tag.name + (tag.count ? `(${tag.count})` : '')}{' '}
         </div>
       </Link>

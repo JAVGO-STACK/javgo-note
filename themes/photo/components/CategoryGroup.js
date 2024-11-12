@@ -23,7 +23,7 @@ const CategoryGroup = props => {
                 className={
                   (selected
                     ? 'hover:text-white dark:hover:text-white bg-gray-600 text-white '
-                    : 'dark:text-green-400 text-gray-500 hover:text-white hover:bg-gray-500 dark:hover:text-white') +
+                    : 'dark:text-blue-400 text-gray-500 hover:text-white hover:bg-gray-500 dark:hover:text-white') +
                   ' w-full items-center duration-300 px-2  cursor-pointer py-1 font-light'
                 }
               >

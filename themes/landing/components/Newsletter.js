@@ -76,7 +76,7 @@ export default function Newsletter() {
                                 <form ref={formRef} className="w-full lg:w-auto">
                                     <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
                                         <input disabled={success} type="email" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2  placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" required />
-                                        <button disabled={success} type='submit' className={`btn text-white  shadow ${success ? 'bg-green-600 hover:bg-green-700' : 'bg-blue-600 hover:bg-blue-700'}`} href="#0">{success ? 'Subscribed' : 'Subscribe'}</button>
+                                        <button disabled={success} type='submit' className={`btn text-white  shadow ${success ? 'bg-blue-600 hover:bg-blue-700' : 'bg-blue-600 hover:bg-blue-700'}`} href="#0">{success ? 'Subscribed' : 'Subscribe'}</button>
                                     </div>
                                     {/* Success message */}
                                     {success && <p className="text-sm text-gray-400 mt-3">感谢您的订阅!</p>}

@@ -42,7 +42,7 @@ const LatestPostsGroup = ({ latestPosts }) => {
               className={
                 (selected
                   ? 'text-white  bg-gray-600 '
-                  : 'text-gray-500 dark:text-green-400 ') +
+                  : 'text-gray-500 dark:text-blue-400 ') +
                 ' py-1 flex hover:bg-gray-500 px-2 duration-200 w-full ' +
                 'hover:text-white dark:hover:text-white cursor-pointer'
               }>

@@ -95,7 +95,7 @@ export default function AdBlockerDetect() {
               onClick={() => {
                 setIsAdBlocker(false)
               }}
-              className="px-12 py-2 gap-2 bg-green-600 rounded text-white "
+              className="px-12 py-2 gap-2 bg-blue-600 rounded text-white "
             >
               OK ({noticeCountdown})
             </button>

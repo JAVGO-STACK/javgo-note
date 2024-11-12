@@ -121,7 +121,7 @@ export const MessageForm = () => {
           </button>
           {/* Success message */}
           {success && (
-            <p className='mt-2 text-green-600 text-sm'>
+            <p className='mt-2 text-blue-600 text-sm'>
               {siteConfig('STARTER_CONTACT_MSG_THANKS')}
             </p>
           )}
