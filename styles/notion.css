@@ -636,7 +636,7 @@ svg.notion-page-icon {
 }
 
 .notion-inline-code {
-  color: #598cfd;
+  color: #598cfd !important;
   padding: 0.2em 0.4em;
   background: var(--bg-color-2);
   border-radius: 3px;
