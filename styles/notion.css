@@ -819,7 +819,7 @@ code[class*='language-'] {
   width: 100%;
   box-sizing: border-box;
   text-decoration: none;
-  border: 1px solid var(--fg-color-1);
+  border: 1px solid #8ba0cf;
   border-radius: 3px;
   display: flex;
   overflow: hidden;
