@@ -63,7 +63,7 @@ const LayoutBase = props => {
           `}>
           {/* 内容 */}
           <div
-            className={`${fullWidth ? '' : LAYOUT_VERTICAL ? 'max-w-5xl' : 'max-w-3xl'} w-full xl:px-14 lg:px-4`}>
+            className={`${fullWidth ? '' : LAYOUT_VERTICAL ? 'max-w-5xl' : 'max-w-6xl'} w-full xl:px-14 lg:px-4`}>
             <Transition
               show={!onLoading}
               appear={true}

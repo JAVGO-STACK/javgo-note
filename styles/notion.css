@@ -1967,7 +1967,7 @@ svg + .notion-page-title-text {
   border-radius: 5px;
   border-color: var(--notion-blue);
   border-left-color: var(--notion-blue);
-  background-color: var(--notion-blue_background_co);
+  background-color: #3872bb;
   width: 100%;
   white-space: pre-wrap;
   word-break: break-word;

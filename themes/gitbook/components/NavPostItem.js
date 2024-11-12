@@ -52,14 +52,17 @@ const NavPostItem = props => {
         <div
           onMouseEnter={onHoverToggle}
           onClick={toggleOpenSubMenu}
-          className='cursor-pointer relative flex justify-between text-md p-2 hover:bg-gray-50 rounded-md dark:hover:bg-blue-600 dark:hover:text-blue-600'
+          className="cursor-pointer relative flex justify-between text-md p-2 hover:bg-blue-600 rounded-md dark:hover:bg-blue-600 dark:hover:text-white"
           key={group?.category}>
-          <span className={`${expanded && 'font-semibold'}`}>
+          <span
+            className={`${expanded ? 'font-semibold' : ''} hover:text-white`}>
             {group?.category}
           </span>
-          <div className='inline-flex items-center select-none pointer-events-none '>
+          <div className="inline-flex items-center select-none pointer-events-none">
             <i
-              className={`px-2 fas fa-chevron-left transition-all opacity-50 duration-700 ${expanded ? '-rotate-90' : ''}`}></i>
+              className={`px-2 fas fa-chevron-left transition-all opacity-50 duration-700 ${
+                expanded ? '-rotate-90' : ''
+              }`}></i>
           </div>
           {groupHasLatest &&
             siteConfig('GITBOOK_LATEST_POST_RED_BADGE') &&

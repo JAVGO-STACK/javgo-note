@@ -143,7 +143,7 @@ const LayoutBase = props => {
 
         <main
           id='wrapper'
-          className={`${siteConfig('LAYOUT_SIDEBAR_REVERSE') ? 'flex-row-reverse' : ''} relative flex justify-between w-full gap-x-6 h-full mx-auto max-w-screen-4xl`}>
+          className={`${siteConfig('LAYOUT_SIDEBAR_REVERSE') ? 'flex-row-reverse' : ''} relative flex justify-between w-full gap-x-6 h-full mx-auto max-w-screen-fit`}>
           {/* 左侧推拉抽屉 */}
           {fullWidth ? null : (
             <div className={'hidden md:block relative z-10 '}>
