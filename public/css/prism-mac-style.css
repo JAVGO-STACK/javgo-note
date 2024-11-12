@@ -17,13 +17,13 @@
 
 .toolbar-item{
   white-space: nowrap;
-  background: #1e3a8a !important;
 }
 
 .toolbar-item > button {
   margin-top: -0.1rem;
   margin-left: 5px;
   margin-right: 5px;
+  background: #1e3a8a !important;
 }
 
 pre[class*='language-'] {
