@@ -165,7 +165,7 @@ const LayoutBase = props => {
           {/* 中间内容区域 */}
           <div
             id='center-wrapper'
-            className='flex flex-col justify-between w-full relative z-10 pt-14 min-h-screen'>
+            className='flex flex-col justify-between w-full relative z-10 pt-14 min-h-screen border-l border-r border-blue-200 border-[0.5px]'>
             <div
               id='container-inner'
               className={`w-full ${fullWidth ? 'px-5' : 'max-w-6xl px-3 lg:px-0'} justify-center mx-auto`}>
