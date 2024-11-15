@@ -52,7 +52,7 @@ const NavPostItem = props => {
         <div
           onMouseEnter={onHoverToggle}
           onClick={toggleOpenSubMenu}
-          className="cursor-pointer relative flex justify-between text-md p-2 hover:bg-blue-600 rounded-md dark:hover:bg-blue-600 dark:hover:text-white"
+          className="cursor-pointer relative flex justify-between text-md p-2 hover:border-blue-900 rounded-md dark:hover:border-blue-900 dark:hover:text-white"
           key={group?.category}>
           <span
             className={`${expanded ? 'font-semibold' : ''} hover:text-white`}>

@@ -548,7 +548,7 @@ summary > .notion-h {
   border-left: 3px solid currentcolor;
   padding: 0.2em 0.9em;
   margin: 6px 0;
-  font-size: 1.2em;
+  font-size: 1rem;
 }
 
 .notion-hr {
@@ -820,7 +820,7 @@ code[class*='language-'] {
   width: 100%;
   box-sizing: border-box;
   text-decoration: none;
-  border: 1px solid #8ba0cf;
+  border: 1px solid #043e60 !important;
   border-radius: 3px;
   display: flex;
   overflow: hidden;
@@ -1968,7 +1968,7 @@ svg + .notion-page-title-text {
   border-radius: 5px;
   border-color: var(--notion-blue);
   border-left-color: var(--notion-blue);
-  background-color: #3872bb;
+  background-color: #1d2c3e;
   width: 100%;
   white-space: pre-wrap;
   word-break: break-word;

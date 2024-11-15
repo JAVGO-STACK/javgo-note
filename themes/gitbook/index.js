@@ -135,7 +135,7 @@ const LayoutBase = props => {
 
       <div
         id='theme-gitbook'
-        className={`${siteConfig('FONT_STYLE')} pb-16 md:pb-0 scroll-smooth bg-white dark:bg-black w-full h-full min-h-screen justify-center dark:text-gray-300`}>
+        className={`${siteConfig('FONT_STYLE')} pb-16 md:pb-0 scroll-smooth bg-white dark:bg-zinc-900 w-full h-full min-h-screen justify-center dark:text-gray-300`}>
         <AlgoliaSearchModal cRef={searchModal} {...props} />
 
         {/* 顶部导航栏 */}
@@ -165,7 +165,7 @@ const LayoutBase = props => {
           {/* 中间内容区域 */}
           <div
             id='center-wrapper'
-            className='flex flex-col justify-between w-full relative z-10 pt-14 min-h-screen border-l border-r border-blue-200 border-[0.5px]'>
+            className='flex flex-col justify-between w-full relative z-10 pt-14 min-h-screen shadow-inner'>
             <div
               id='container-inner'
               className={`w-full ${fullWidth ? 'px-5' : 'max-w-6xl px-3 lg:px-0'} justify-center mx-auto`}>

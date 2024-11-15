@@ -9,7 +9,7 @@ const Style = () => {
     <style jsx global>{`
       // 底色
       .dark body {
-        background-color: black;
+        background-color: #1b1f23;
       }
 
       .bottom-button-group {
