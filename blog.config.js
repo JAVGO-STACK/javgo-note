@@ -43,7 +43,7 @@ const BLOG = {
   CONTACT_ZHISHIXINGQIU: process.env.NEXT_PUBLIC_CONTACT_ZHISHIXINGQIU || '', // 知识星球
   CONTACT_WEHCHAT_PUBLIC: process.env.NEXT_PUBLIC_CONTACT_WEHCHAT_PUBLIC || '', // 微信公众号 格式：https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=【xxxxxx】==#wechat_redirect
 
-  NOTION_HOST: process.env.NEXT_PUBLIC_NOTION_HOST || 'https://www.notion.so', // Notion域名，您可以选择用自己的域名进行反向代理，如果不懂得什么是反向代理，请勿修改此项
+  NOTION_HOST: process.env.NEXT_PUBLIC_NOTION_HOST || 'https://www.javgo.cn', // Notion域名，您可以选择用自己的域名进行反向代理，如果不懂得什么是反向代理，请勿修改此项
 
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
 
@@ -137,17 +137,17 @@ const BLOG = {
     process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU || true, // 自定义右键菜单，覆盖系统菜单
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_SWITCH:
     process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_SWITCH ||
-    true, // 是否显示切换主题
+    false, // 是否显示切换主题
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_DARK_MODE:
     process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_DARK_MODE || true, // 是否显示深色模式
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_SHARE_LINK:
     process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_SHARE_LINK || true, // 是否显示分享链接
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_RANDOM_POST:
-    process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_RANDOM_POST || true, // 是否显示随机博客
+    process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_RANDOM_POST || false, // 是否显示随机博客
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_CATEGORY:
-    process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_CATEGORY || true, // 是否显示分类
+    process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_CATEGORY || false, // 是否显示分类
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_TAG:
-    process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_TAG || true, // 是否显示标签
+    process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_TAG || false, // 是否显示标签
 
   // 自定义外部脚本，外部样式
   CUSTOM_EXTERNAL_JS: [''], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
@@ -163,7 +163,7 @@ const BLOG = {
   FACEBOOK_PAGE_ID: process.env.NEXT_PUBLIC_FACEBOOK_PAGE_ID || '', // Facebook Page ID 來啟用 messenger 聊天功能
   FACEBOOK_APP_ID: process.env.NEXT_PUBLIC_FACEBOOK_APP_ID || '', // Facebook App ID 來啟用 messenger 聊天功能 获取: https://developers.facebook.com/
 
-  BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXXX
+  BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '闽ICP备XXXXXXX', // 备案号 闽ICP备XXXXXXX
 
   // START********代码相关********
   // PrismJs 代码相关
@@ -175,16 +175,16 @@ const BLOG = {
   PRISM_THEME_PREFIX_PATH:
     process.env.NEXT_PUBLIC_PRISM_THEME_PREFIX_PATH ||
     'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.css', // 代码块默认主题
-  PRISM_THEME_SWITCH: process.env.NEXT_PUBLIC_PRISM_THEME_SWITCH || true, // 是否开启浅色/深色模式代码主题切换； 开启后将显示以下两个主题
+  PRISM_THEME_SWITCH: process.env.NEXT_PUBLIC_PRISM_THEME_SWITCH || false, // 是否开启浅色/深色模式代码主题切换； 开启后将显示以下两个主题
   PRISM_THEME_LIGHT_PATH:
     process.env.NEXT_PUBLIC_PRISM_THEME_LIGHT_PATH ||
-    'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-solarizedlight.css', // 浅色模式主题
+    'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css', // 浅色模式主题
   PRISM_THEME_DARK_PATH:
     process.env.NEXT_PUBLIC_PRISM_THEME_DARK_PATH ||
     'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css', // 深色模式主题
 
-  CODE_MAC_BAR: process.env.NEXT_PUBLIC_CODE_MAC_BAR || true, // 代码左上角显示mac的红黄绿图标
-  CODE_LINE_NUMBERS: process.env.NEXT_PUBLIC_CODE_LINE_NUMBERS || true, // 是否显示行号
+  CODE_MAC_BAR: process.env.NEXT_PUBLIC_CODE_MAC_BAR || false, // 代码左上角显示mac的红黄绿图标
+  CODE_LINE_NUMBERS: process.env.NEXT_PUBLIC_CODE_LINE_NUMBERS || false, // 是否显示行号
   CODE_COLLAPSE: process.env.NEXT_PUBLIC_CODE_COLLAPSE || false, // 是否支持折叠代码框
   CODE_COLLAPSE_EXPAND_DEFAULT:
     process.env.NEXT_PUBLIC_CODE_COLLAPSE_EXPAND_DEFAULT || true, // 折叠代码默认是展开状态
@@ -253,7 +253,7 @@ const BLOG = {
   ],
 
   // 鼠标跟随特效
-  MOUSE_FOLLOW: process.env.NEXT_PUBLIC_MOUSE_FOLLOW || true, // 开关
+  MOUSE_FOLLOW: process.env.NEXT_PUBLIC_MOUSE_FOLLOW || false, // 开关
   // 这两个只有在鼠标跟随特效开启时才生效
   // 鼠标类型 1：路劲散点 2：下降散点 3：上升散点 4：边缘向鼠标移动散点 5：跟踪转圈散点 6：路径线条 7：聚集散点 8：聚集网格 9：移动网格 10：上升粒子 11：转圈随机颜色粒子 12：圆锥放射跟随蓝色粒子
   MOUSE_FOLLOW_EFFECT_TYPE: 11, // 1-12
@@ -291,12 +291,12 @@ const BLOG = {
   DIFY_CHATBOT_BASE_URL: process.env.NEXT_PUBLIC_DIFY_CHATBOT_BASE_URL || '',
   DIFY_CHATBOT_TOKEN: process.env.NEXT_PUBLIC_DIFY_CHATBOT_TOKEN || '',
   // 悬浮挂件
-  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || true, // 是否显示宠物挂件
+  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || false, // 是否显示宠物挂件
   WIDGET_PET_LINK:
     process.env.NEXT_PUBLIC_WIDGET_PET_LINK ||
     'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/haruto.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
   WIDGET_PET_SWITCH_THEME:
-    process.env.NEXT_PUBLIC_WIDGET_PET_SWITCH_THEME || true, // 点击宠物挂件切换博客主题
+    process.env.NEXT_PUBLIC_WIDGET_PET_SWITCH_THEME || false, // 点击宠物挂件切换博客主题
 
   // 音乐播放插件
   MUSIC_PLAYER: process.env.NEXT_PUBLIC_MUSIC_PLAYER || false, // 是否使用音乐播放插件
@@ -358,10 +358,10 @@ const BLOG = {
 
   // utterance
   COMMENT_UTTERRANCES_REPO:
-    process.env.NEXT_PUBLIC_COMMENT_UTTERRANCES_REPO || '', // 你的代码仓库名， 例如我是 'tangly1024/NotionNext'； 更多文档参考 https://utteranc.es/
+    process.env.NEXT_PUBLIC_COMMENT_UTTERRANCES_REPO || 'JAVGO-STACK/javgo-note', // 你的代码仓库名， 例如我是 'tangly1024/NotionNext'； 更多文档参考 https://utteranc.es/
 
   // giscus @see https://giscus.app/
-  COMMENT_GISCUS_REPO: process.env.NEXT_PUBLIC_COMMENT_GISCUS_REPO || '', // 你的Github仓库名 e.g 'tangly1024/NotionNext'
+  COMMENT_GISCUS_REPO: process.env.NEXT_PUBLIC_COMMENT_GISCUS_REPO || 'JAVGO-STACK/javgo-note', // 你的Github仓库名 e.g 'tangly1024/NotionNext'
   COMMENT_GISCUS_REPO_ID: process.env.NEXT_PUBLIC_COMMENT_GISCUS_REPO_ID || '', // 你的Github Repo ID e.g ( 設定完 giscus 即可看到 )
   COMMENT_GISCUS_CATEGORY_ID:
     process.env.NEXT_PUBLIC_COMMENT_GISCUS_CATEGORY_ID || '', // 你的Github Discussions 內的 Category ID ( 設定完 giscus 即可看到 )
@@ -386,9 +386,9 @@ const BLOG = {
     process.env.NEXT_PUBLIC_COMMENT_CUSDIS_SCRIPT_SRC || '/js/cusdis.es.js', // change this if you're using self-hosted version
 
   // gitalk评论插件 更多参考 https://gitalk.github.io/
-  COMMENT_GITALK_REPO: process.env.NEXT_PUBLIC_COMMENT_GITALK_REPO || '', // 你的Github仓库名，例如 'NotionNext'
-  COMMENT_GITALK_OWNER: process.env.NEXT_PUBLIC_COMMENT_GITALK_OWNER || '', // 你的用户名 e.g tangly1024
-  COMMENT_GITALK_ADMIN: process.env.NEXT_PUBLIC_COMMENT_GITALK_ADMIN || '', // 管理员用户名、一般是自己 e.g 'tangly1024'
+  COMMENT_GITALK_REPO: process.env.NEXT_PUBLIC_COMMENT_GITALK_REPO || 'javgo-note', // 你的Github仓库名，例如 'NotionNext'
+  COMMENT_GITALK_OWNER: process.env.NEXT_PUBLIC_COMMENT_GITALK_OWNER || 'JAVGO-STACK', // 你的用户名 e.g tangly1024
+  COMMENT_GITALK_ADMIN: process.env.NEXT_PUBLIC_COMMENT_GITALK_ADMIN || 'JAVGO-STACK', // 管理员用户名、一般是自己 e.g 'tangly1024'
   COMMENT_GITALK_CLIENT_ID:
     process.env.NEXT_PUBLIC_COMMENT_GITALK_CLIENT_ID || '', // e.g 20位ID ， 在gitalk后台获取
   COMMENT_GITALK_CLIENT_SECRET:
